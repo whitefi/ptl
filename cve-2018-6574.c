@@ -4,5 +4,5 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-    system("sleep 10");
+    system("sleep 20");
 }
